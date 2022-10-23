@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className='bg-white px-10'>
-      <MainSection title="Hey there"/>
+      <MainSection/>
       </main>
     </div>
   )
