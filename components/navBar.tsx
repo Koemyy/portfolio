@@ -12,7 +12,7 @@ function Navbar({title, label, href}: navBar) {
             <h1 className='text-xl'>{title}</h1>
             <ul className='flex items-center'>
                 <li>
-                    <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
+                    <BsFillMoonStarsFill className='text-gray-700 cursor-pointer text-2xl'/>
                 </li>
                 <li>
                     <a className='bg-gradient-to-r from-pink-400 to-pink-300 text-white px-4 py-2 rounded-md ml-8' href={href}>{label}</a>
