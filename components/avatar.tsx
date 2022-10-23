@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import 
+import Image from 'next/'
+
 interface avatar {
     image: string
 }
