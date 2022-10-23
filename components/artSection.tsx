@@ -14,7 +14,7 @@ const cards =
         "image": art,
         "title": "Design",
         "subtitle": "Studying design to be a UI/UX pro!",
-        "paragraph": "Design tools I use",
+        "paragraph": "Design tools that I use",
         "tools": [
             "Figma",
             "Photoshop",
@@ -41,17 +41,19 @@ function ArtSection({title, subtitle}: artSection) {
                 <h3 className="font-medium text-gray-700 text-center text-3xl">{title}</h3>
                 <p className="text-center text-md py-2 leading-8 text-gray-700">{subtitle}</p>
             </div>
-            {cards.map(cards => {
-                return (
-                    <Cards 
-                    image={cards.image}
-                    title={cards.title}
-                    subtitle={cards.subtitle}
-                    paragraph={cards.paragraph}
-                    tools={cards.tools}
-                    />
-                )
-            })}
+            <div className='lg:flex justify-center'>
+                {cards.map(cards => {
+                    return (
+                        <Cards 
+                        image={cards.image}
+                        title={cards.title}
+                        subtitle={cards.subtitle}
+                        paragraph={cards.paragraph}
+                        tools={cards.tools}
+                        />
+                    )
+                })}
+            </div>
         </section>
     );
 }
