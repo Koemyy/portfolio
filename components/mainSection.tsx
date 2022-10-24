@@ -3,7 +3,7 @@ import Navbar from './navBar';
 import Icons from './icons'
 import Avatar from './avatar';
 import ArtSection from './artSection';
-
+import PortfolioSection from './portfolioSection';
 
 function MainSection() {
     return(
@@ -13,7 +13,8 @@ function MainSection() {
             I'm very interested in the front-end and UI/UX area, always looking to learn and understand the user's needs."/>
             <Icons/>
             <Avatar/>
-            <ArtSection title='My Works' subtitle="Take a look at my projects in Figma and some sites that I've made!"/>
+            <ArtSection title='About me' subtitle="Tools and technologies that I use!"/>
+            <PortfolioSection title="Portfolio" subtitle="Take a look at my projects in Figma and some sites that I've made!"/>
         </section>
     );
 }
