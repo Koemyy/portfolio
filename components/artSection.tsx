@@ -44,7 +44,7 @@ function ArtSection({title, subtitle}: artSection) {
             <div className='lg:flex justify-center'>
                 {cards.map(cards => {
                     return (
-                        <Cards 
+                        <Cards key={cards.title}
                         image={cards.image}
                         title={cards.title}
                         subtitle={cards.subtitle}
