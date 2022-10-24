@@ -1,6 +1,4 @@
 import Image, { StaticImageData } from 'next/image'
-import art from '../public/art_pallete.png'
-import woman from '../public/woman_tech.png'
 
 interface cardsSection{
     image: StaticImageData,
@@ -19,7 +17,7 @@ function Cards(props: cardsSection) {
             <h4 className='text-lg py-4 text-pink-400'>{props.paragraph}</h4>
             {props.tools.map(tools => {
                 return (
-                    <p className='text-gray-700 py-1'>{tools}</p>
+                    <p key={tools} className='text-gray-700 py-1'>{tools}</p>
                 )
             })}
         </div>  
