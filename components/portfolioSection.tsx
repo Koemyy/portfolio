@@ -31,11 +31,11 @@ function PortfolioSection({title, subtitle}: portfolioSection) {
                 <p className="text-center text-md py-2 leading-8 text-gray-700">{subtitle}</p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap justify-center'>
-                {images.map(images => {
+                {images.map((images, index) => {
                         return (
                             <PortfolioImages
                             image={images.image}
-                            key="Image"
+                            key={index}
                             />
                         )
                     })}
