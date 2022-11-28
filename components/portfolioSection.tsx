@@ -2,7 +2,7 @@ import { IMAGES_MANIFEST } from 'next/dist/shared/lib/constants';
 import placeholder from '../public/placeholder.png'
 import pet from '../public/pet_adoption.png'
 import PortfolioImages from './portfolioImages';
-import pokedex_react from '../public/pokedex_react.gif';
+import pokedex_react from '../public/pokedex_react.png';
 
 interface portfolioSection {
     title: string,
@@ -17,7 +17,7 @@ const images =
     },
     {
         "image": pokedex_react,
-        "link": "https://github.com/Koemyy/pokedex-react"
+        "link": "https://pokedex-koemyy.vercel.app/"
     },
 ]
 
