@@ -3,6 +3,7 @@ import placeholder from '../public/placeholder.png'
 import pet from '../public/pet_adoption.png'
 import PortfolioImages from './portfolioImages';
 import pokedex_react from '../public/pokedex_react.png';
+import netflix_react from '../public/netflix-react.png';
 
 interface portfolioSection {
     title: string,
@@ -18,6 +19,10 @@ const images =
     {
         "image": pokedex_react,
         "link": "https://pokedex-koemyy.vercel.app/"
+    },
+    {
+        "image": netflix_react,
+        "link": "https://netflix-react-80ef1.web.app/"
     },
 ]
 
