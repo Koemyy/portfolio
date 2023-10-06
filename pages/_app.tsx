@@ -1,8 +1,14 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import { AppProps } from 'next/app';
+import GoogleTagManager from '../components/GTM/GoogleTagManager';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+      <>
+        {/* Add other head elements here */}
+        <GoogleTagManager />
+        <Component {...pageProps} />
+      </>
+  );
 }
 
-export default MyApp
+export default MyApp;
