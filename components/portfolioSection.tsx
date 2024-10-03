@@ -16,7 +16,7 @@ const images =
     },
     {
         "image": pokedex_react,
-        "link": "https://pokedex-koemyy.vercel.app/"
+        "link": "https://pokedex-koemyys-projects.vercel.app/"
     },
     {
         "image": netflix_react,
