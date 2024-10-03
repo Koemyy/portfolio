@@ -1,5 +1,3 @@
-import { IMAGES_MANIFEST } from 'next/dist/shared/lib/constants';
-import placeholder from '../public/placeholder.png'
 import pet from '../public/pet_adoption.png'
 import PortfolioImages from './portfolioImages';
 import pokedex_react from '../public/pokedex_react.png';
@@ -14,7 +12,7 @@ const images =
 [
     {
         "image": pet,
-        "link": "https://dribbble.com/shots/19874290-Pet-Adoption-App",
+        "link": "https://www.figma.com/community/file/1176922913252839072/pet-adoption",
     },
     {
         "image": pokedex_react,
